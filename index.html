@@ -5,6 +5,7 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/src/style.css" />
+                
     <title>Jambaze Blog</title>
   </head>
   <body>
@@ -16,7 +17,7 @@
         class="w-full h-[102px] text-[#ffffff] bg-[#121212] backdrop-blur-3xl py-3 px-24"
       >
         <!--nav content-->
-        <div class="flex h-full items-center justify-between bg-blue-700">
+        <div class="flex h-full items-center justify-between">
           <!--logo-section-->
           <div class="flex items-center space-x-1">
             <img src="src/icons/logo.svg" alt="" />
@@ -24,8 +25,8 @@
           </div>
 
           <!--links-section-->
-          <div class="flex items-center">
-            <div class="flex items-center space-x-6">
+          <div class="flex items-center space-x-8">
+            <div class="flex items-center space-x-4 text-base font-medium tracking-normal laedind-none">
               <a href="#" class="flex items-center space-x-1">
                 <div>Music</div>
                 <div>
@@ -68,6 +69,33 @@
                   </svg>
                 </div>
               </a>
+            </div>
+
+            <!-- search-btn -->
+            <div class="flex items-center w-[24px] h-[24px]">
+              <img src="src/icons/search.svg" alt="" />
+            </div>
+            <!--subscribe-btn-->
+            <div
+              class="flex items-center justify-center border-1 w-[156px] h-[50px] rounded-md space-x-2 text-base font-medium tracking-normal laedind-none"
+            >
+              <button>Subscribe</button>
+              <div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-4"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="m19.5 8.25-7.5 7.5-7.5-7.5"
+                  />
+                </svg>
+              </div>
             </div>
           </div>
         </div>
