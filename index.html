@@ -848,11 +848,13 @@
           class="max-w-full h-auto object-cover mb-24"
         />
 
-        <!--trending posts-->
+        <!--trending posts/ latest posts-->
         <div class="max-w-full md:max-w-[1240px] mx-auto">
           <div class="grid gap-6 md:grid-cols-12 gap-8 mb-24">
             <div class="col-span-1 md:col-span-8">
-              <div class="flex mb-6 text-base font-Archivo text-[#121212]">
+              <div
+                class="flex mb-6 text-base font-Archivo items-center text-[#121212]"
+              >
                 <h3
                   class="w-[150px] h-[50px] py-3 px-6 border-b border-[#F44C1C] font-semibold"
                 >
@@ -1724,7 +1726,7 @@
                   </span>
                 </div>
               </div>
-
+              <!--view more posts-->
               <div class="flex items-center mt-12 justify-center">
                 <div
                   class="flex items-center justify-center space-x-2 w-[202px] h-[50px] border border-[#E0E0E0] rounded-sm"
@@ -1769,7 +1771,7 @@
           <div class="grid grid-cols-2 gap-6 md:grid-cols-6 gap-2">
             <div class="w-full">
               <img
-                src="src/album-cover/album1.png"
+                src="src/artist-pics/arttist-1.png"
                 alt=""
                 class="w-full h-[184px] object-cover rounded-t-sm"
               />
@@ -1781,7 +1783,7 @@
 
             <div class="w-full">
               <img
-                src="src/album-cover/album2.png"
+                src="src/artist-pics/artist-2.png"
                 alt=""
                 class="w-full h-[184px] object-cover rounded-t-sm"
               />
@@ -1793,7 +1795,7 @@
 
             <div class="w-full">
               <img
-                src="src/album-cover/album3.png"
+                src="src/artist-pics/artist-3.png"
                 alt=""
                 class="w-full h-[184px] object-cover rounded-t-sm"
               />
@@ -1805,7 +1807,7 @@
 
             <div class="w-full">
               <img
-                src="src/album-cover/album4.png"
+                src="src/artist-pics/artist-4.png"
                 alt=""
                 class="w-full h-[184px] object-cover rounded-t-sm"
               />
@@ -1817,7 +1819,7 @@
 
             <div class="w-full">
               <img
-                src="src/album-cover/album5.png"
+                src="src/artist-pics/artist-5.png"
                 alt=""
                 class="w-full h-[184px] object-cover rounded-t-sm"
               />
@@ -1829,7 +1831,7 @@
 
             <div class="w-full">
               <img
-                src="src/album-cover/album6.png"
+                src="src/artist-pics/artist-6.png"
                 alt=""
                 class="w-full h-[184px] object-cover rounded-t-sm"
               />
@@ -1862,6 +1864,119 @@
 
               <span>Upload your song</span>
             </button>
+          </div>
+        </div>
+
+        <!--playlists-->
+        <div class="w-full md:max-w-[1240px] mx-auto mb-24">
+          <!-- Main container -->
+          <div class="flex items-center justify-between font-Archivo mb-6">
+            <h2 class="font-bold text-2xl">Top Artistes</h2>
+          </div>
+
+          <div class="grid grid-cols-2 md:grid-cols-6 gap-6">
+            <div class="w-full">
+              <img
+                src="src/artist-pics/arttist-1.png"
+                alt=""
+                class="w-full h-[184px] object-cover rounded-t-sm"
+              />
+              <div class="font-Archivo bg-[#F5F5F5] p-3 rounded-b-sm">
+                <h3 class="text-base font-semibold">Top 100</h3>
+                <h3 class="text-base font-medium">100 songs</h3>
+                <h3 class="text-base font-bold">Jambaze</h3>
+              </div>
+            </div>
+
+            <div class="w-full">
+              <img
+                src="src/artist-pics/artist-2.png"
+                alt=""
+                class="w-full h-[184px] object-cover rounded-t-sm"
+              />
+              <div class="font-Archivo bg-[#F5F5F5] p-3 rounded-b-sm">
+                <h3 class="text-base font-semibold">Top Artists</h3>
+                <h3 class="text-base font-medium">100 artists</h3>
+                <h3 class="text-base font-bold">Jambaze</h3>
+              </div>
+            </div>
+
+            <div class="w-full">
+              <img
+                src="src/artist-pics/artist-3.png"
+                alt=""
+                class="w-full h-[184px] object-cover rounded-t-sm"
+              />
+              <div class="font-Archivo bg-[#F5F5F5] p-3 rounded-b-sm">
+                <h3 class="text-base font-semibold">Top Albums</h3>
+                <h3 class="text-base font-medium">100 Albums</h3>
+                <h3 class="text-base font-bold">Jambaze</h3>
+              </div>
+            </div>
+
+            <div class="w-full">
+              <img
+                src="src/artist-pics/artist-4.png"
+                alt=""
+                class="w-full h-[184px] object-cover rounded-t-sm"
+              />
+              <div class="font-Archivo bg-[#F5F5F5] p-3 rounded-b-sm">
+                <h3 class="text-base font-semibold">Cool Vibes</h3>
+                <h3 class="text-base font-medium">50 Songs</h3>
+                <h3 class="text-base font-bold">Jambaze</h3>
+              </div>
+            </div>
+
+            <div class="w-full">
+              <img
+                src="src/artist-pics/artist-5.png"
+                alt=""
+                class="w-full h-[184px] object-cover rounded-t-sm"
+              />
+              <div class="font-Archivo bg-[#F5F5F5] p-3 rounded-b-sm">
+                <h3 class="text-base font-semibold">Work Mode</h3>
+                <h3 class="text-base font-medium">50 songs</h3>
+                <h3 class="text-base font-bold">Jambaze</h3>
+              </div>
+            </div>
+
+            <div class="w-full">
+              <img
+                src="src/artist-pics/artist-6.png"
+                alt=""
+                class="w-full h-[184px] object-cover rounded-t-sm"
+              />
+              <div class="font-Archivo bg-[#F5F5F5] p-3 rounded-b-sm">
+                <h3 class="text-base font-semibold">Afrobeats</h3>
+                <h3 class="text-base font-medium">50 songs</h3>
+                <h3 class="text-base font-bold">Jambaze</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex items-center mt-12 justify-center">
+            <div
+              class="flex items-center justify-center space-x-2 w-[202px] h-[50px] border border-[#E0E0E0] rounded-sm"
+            >
+              <span class="text-base font-semibold font-Archivo"
+                >View all playlists</span
+              >
+              <svg
+                width="17"
+                height="16"
+                viewBox="0 0 17 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1.5 8H15.5M15.5 8L8.5 1M15.5 8L8.5 15"
+                  stroke="#121212"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </section>
