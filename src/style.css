@@ -1,6 +1,7 @@
 @import url('https://fonts.cdnfonts.com/css/archivo');
 @import url('https://fonts.cdnfonts.com/css/space-grotesk');
 @import url('https://fonts.cdnfonts.com/css/josefin-sans');
+@import url('https://fonts.cdnfonts.com/css/inter');
 @import "tailwindcss";
 
 
@@ -10,4 +11,6 @@
   --font-Archivo: "Archivo", "sans-serif";
   --font-space-grotesk: "Space Grotesk", "sans-serif";
   --font-Josefin-sans: "Josefin Sans", "sans-serif";
+  --font-inter: 'Inter', sans-serif;
+                                                
 }
