@@ -406,7 +406,7 @@
 
         <!--songs items-->
         <div class="w-full md:max-w-[1240px] mx-auto">
-          <div class="grid gap-6 md:grid-cols-12 gap-8 mb-24">
+          <div class="grid md:grid-cols-12 md:gap-8 mb-24">
             <div class="col-span-1 md:col-span-6">
               <div
                 class="flex items-center justify-between border-t-1 border-[#E0E0E0] p-3"
@@ -444,7 +444,7 @@
                     </svg>
                   </div>
                   <div
-                    class="bg-[#F44C1C] px-4 py-2 rounded-full text-[#F8F3E5] font-Archivo font-semibold text-base"
+                    class="hidden md:block bg-[#F44C1C] px-4 py-2 rounded-full text-[#F8F3E5] font-Archivo font-semibold text-base"
                   >
                     <button>Play</button>
                   </div>
@@ -487,7 +487,7 @@
                     </svg>
                   </div>
                   <div
-                    class="bg-[#F44C1C] px-4 py-2 rounded-full text-[#F8F3E5] font-Archivo font-semibold text-base"
+                    class="hidden md:block bg-[#F44C1C] px-4 py-2 rounded-full text-[#F8F3E5] font-Archivo font-semibold text-base"
                   >
                     <button>Play</button>
                   </div>
@@ -530,7 +530,7 @@
                     </svg>
                   </div>
                   <div
-                    class="bg-[#F44C1C] px-4 py-2 rounded-full text-[#F8F3E5] font-Archivo font-semibold text-base"
+                    class="hidden md:block bg-[#F44C1C] px-4 py-2 rounded-full text-[#F8F3E5] font-Archivo font-semibold text-base"
                   >
                     <button>Play</button>
                   </div>
@@ -573,7 +573,7 @@
                     </svg>
                   </div>
                   <div
-                    class="bg-[#F44C1C] px-4 py-2 rounded-full text-[#F8F3E5] font-Archivo font-semibold text-base"
+                    class="hidden md:block bg-[#F44C1C] px-4 py-2 rounded-full text-[#F8F3E5] font-Archivo font-semibold text-base"
                   >
                     <button>Play</button>
                   </div>
@@ -616,7 +616,7 @@
                     </svg>
                   </div>
                   <div
-                    class="bg-[#F44C1C] px-4 py-2 rounded-full text-[#F8F3E5] font-Archivo font-semibold text-base"
+                    class="hidden md:block bg-[#F44C1C] px-4 py-2 rounded-full text-[#F8F3E5] font-Archivo font-semibold text-base"
                   >
                     <button>Play</button>
                   </div>
@@ -660,7 +660,7 @@
                     </svg>
                   </div>
                   <div
-                    class="bg-[#F44C1C] px-4 py-2 rounded-full text-[#F8F3E5] font-Archivo font-semibold text-base"
+                    class="hidden md:block bg-[#F44C1C] px-4 py-2 rounded-full text-[#F8F3E5] font-Archivo font-semibold text-base"
                   >
                     <button>Play</button>
                   </div>
@@ -703,7 +703,7 @@
                     </svg>
                   </div>
                   <div
-                    class="bg-[#F44C1C] px-4 py-2 rounded-full text-[#F8F3E5] font-Archivo font-semibold text-base"
+                    class="hidden md:block bg-[#F44C1C] px-4 py-2 rounded-full text-[#F8F3E5] font-Archivo font-semibold text-base"
                   >
                     <button>Play</button>
                   </div>
@@ -746,7 +746,7 @@
                     </svg>
                   </div>
                   <div
-                    class="bg-[#F44C1C] px-4 py-2 rounded-full text-[#F8F3E5] font-Archivo font-semibold text-base"
+                    class="hidden md:block bg-[#F44C1C] px-4 py-2 rounded-full text-[#F8F3E5] font-Archivo font-semibold text-base"
                   >
                     <button>Play</button>
                   </div>
@@ -789,7 +789,7 @@
                     </svg>
                   </div>
                   <div
-                    class="bg-[#F44C1C] px-4 py-2 rounded-full text-[#F8F3E5] font-Archivo font-semibold text-base"
+                    class="hidden md:block bg-[#F44C1C] px-4 py-2 rounded-full text-[#F8F3E5] font-Archivo font-semibold text-base"
                   >
                     <button>Play</button>
                   </div>
@@ -832,7 +832,7 @@
                     </svg>
                   </div>
                   <div
-                    class="bg-[#F44C1C] px-4 py-2 rounded-full text-[#F8F3E5] font-Archivo font-semibold text-base"
+                    class="hidden md:block bg-[#F44C1C] px-4 py-2 rounded-full text-[#F8F3E5] font-Archivo font-semibold text-base"
                   >
                     <button>Play</button>
                   </div>
@@ -849,10 +849,189 @@
           class="max-w-full h-auto object-cover mb-24"
         />
 
-        <!--trending posts/ latest posts left-->
-        <div class="max-w-full md:max-w-[1240px] mx-auto">
+        <!--display this section only on desktop-->
+        <div class="mb-12 cols-span-1 md:col-span-5 block md:hidden">
+          <div class="cols-span-1 md:col-span-5">
+            <div
+              class="border-t border-[#E0E0E0] py-4 px-3 flex items-center space-x-4"
+            >
+              <div class="shrink-0">
+                <img
+                  src="src/channels/channel1.png"
+                  alt=""
+                  class="w-32 h-20 object-cover rounded"
+                />
+              </div>
+
+              <div class="space-y-3">
+                <h3 class="text-lg font-semibold font-Archivo leading-6">
+                  Prosper Germoh – Your Dominion...
+                </h3>
+
+                <div class="flex items-center space-x-1">
+                  <svg
+                    width="17"
+                    height="16"
+                    viewBox="0 0 17 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M8.5 3.99992V7.99992H11.5M15.1667 7.99992C15.1667 11.6818 12.1819 14.6666 8.5 14.6666C4.8181 14.6666 1.83333 11.6818 1.83333 7.99992C1.83333 4.31802 4.8181 1.33325 8.5 1.33325C12.1819 1.33325 15.1667 4.31802 15.1667 7.99992Z"
+                      stroke="#707070"
+                      stroke-width="1.2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  <div class="text-[#707070] text-sm">6mins ago</div>
+                </div>
+
+                <span
+                  class="rounded-full bg-[#F8F3E5] text-[#F44C1C] py-1 px-3 text-sm leading-[6.96px]"
+                >
+                  Entertainment
+                </span>
+              </div>
+            </div>
+
+            <div
+              class="border-t border-[#E0E0E0] py-4 px-3 flex items-center space-x-4"
+            >
+              <div class="shrink-0">
+                <img
+                  src="src/channels/channel2.png"
+                  alt=""
+                  class="w-32 h-20 object-cover rounded"
+                />
+              </div>
+
+              <div class="space-y-3">
+                <h3 class="text-lg font-semibold font-archivo leading-6">
+                  Prosper Germoh – Your Dominion...
+                </h3>
+
+                <div class="flex items-center space-x-1">
+                  <svg
+                    width="17"
+                    height="16"
+                    viewBox="0 0 17 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M8.5 3.99992V7.99992H11.5M15.1667 7.99992C15.1667 11.6818 12.1819 14.6666 8.5 14.6666C4.8181 14.6666 1.83333 11.6818 1.83333 7.99992C1.83333 4.31802 4.8181 1.33325 8.5 1.33325C12.1819 1.33325 15.1667 4.31802 15.1667 7.99992Z"
+                      stroke="#707070"
+                      stroke-width="1.2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  <div class="text-[#707070] text-sm">6mins ago</div>
+                </div>
+
+                <span
+                  class="rounded-full bg-[#F8F3E5] text-[#F44C1C] py-1 px-3 text-sm leading-[6.96px]"
+                >
+                  Entertainment
+                </span>
+              </div>
+            </div>
+
+            <div
+              class="border-t border-[#E0E0E0] py-4 px-3 flex items-center space-x-4"
+            >
+              <div class="shrink-0">
+                <img
+                  src="src/channels/channel3.png"
+                  alt=""
+                  class="w-32 h-20 object-cover rounded"
+                />
+              </div>
+
+              <div class="space-y-3">
+                <h3 class="text-lg font-semibold font-archivo leading-6">
+                  Prosper Germoh – Your Dominion...
+                </h3>
+
+                <div class="flex items-center space-x-1">
+                  <svg
+                    width="17"
+                    height="16"
+                    viewBox="0 0 17 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M8.5 3.99992V7.99992H11.5M15.1667 7.99992C15.1667 11.6818 12.1819 14.6666 8.5 14.6666C4.8181 14.6666 1.83333 11.6818 1.83333 7.99992C1.83333 4.31802 4.8181 1.33325 8.5 1.33325C12.1819 1.33325 15.1667 4.31802 15.1667 7.99992Z"
+                      stroke="#707070"
+                      stroke-width="1.2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  <div class="text-[#707070] text-sm">6mins ago</div>
+                </div>
+
+                <span
+                  class="rounded-full bg-[#F8F3E5] text-[#F44C1C] py-1 px-3 text-sm leading-[6.96px]"
+                >
+                  Entertainment
+                </span>
+              </div>
+            </div>
+
+            <div
+              class="border-t border-b border-[#E0E0E0] py-4 px-3 flex items-center space-x-4"
+            >
+              <div class="shrink-0">
+                <img
+                  src="src/channels/channel4.png"
+                  alt=""
+                  class="w-32 h-20 object-cover rounded"
+                />
+              </div>
+
+              <div class="space-y-3">
+                <h3 class="text-lg font-semibold font-archivo leading-6">
+                  Prosper Germoh – Your Dominion...
+                </h3>
+
+                <div class="flex items-center space-x-1">
+                  <svg
+                    width="17"
+                    height="16"
+                    viewBox="0 0 17 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M8.5 3.99992V7.99992H11.5M15.1667 7.99992C15.1667 11.6818 12.1819 14.6666 8.5 14.6666C4.8181 14.6666 1.83333 11.6818 1.83333 7.99992C1.83333 4.31802 4.8181 1.33325 8.5 1.33325C12.1819 1.33325 15.1667 4.31802 15.1667 7.99992Z"
+                      stroke="#707070"
+                      stroke-width="1.2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  <div class="text-[#707070] text-sm">6mins ago</div>
+                </div>
+
+                <span
+                  class="rounded-full bg-[#F8F3E5] text-[#F44C1C] py-1 px-3 text-sm leading-[6.96px]"
+                >
+                  Entertainment
+                </span>
+              </div>
+            </div>
+
+            <div ></div>
+          </div>
+        </div>
+
+        <!--trending posts/ latest posts left side-->
+        <div class="max-w-full h-full md:max-w-[1240px] mx-auto">
           <div class="grid gap-6 md:grid-cols-12 gap-8 mb-24">
-            <div class="col-span-1 md:col-span-8">
+            <div class="hidden md:block col-span-1 md:col-span-8">
               <div
                 class="flex mb-6 text-base font-Archivo items-center text-[#121212]"
               >
@@ -869,7 +1048,7 @@
               </div>
 
               <div
-                class="border-t border-[#E0E0E0] py-4 px-3 flex items-center space-x-4"
+                class="h-[118px] border-t border-[#E0E0E0] py-4 px-3 flex items-center space-x-4"
               >
                 <div class="shrink-0">
                   <img
@@ -879,7 +1058,7 @@
                   />
                 </div>
 
-                <div class="space-y-3">
+                <div class="space-y-2">
                   <h3 class="text-lg font-semibold font-Archivo leading-6">
                     Prosper Germoh – Your Dominion (GOSPEL ALBUM)
                   </h3>
@@ -912,7 +1091,7 @@
               </div>
 
               <div
-                class="border-t border-[#E0E0E0] py-4 px-3 flex items-center space-x-4"
+                class="h-[118px] border-t border-[#E0E0E0] py-4 px-3 flex items-center space-x-4"
               >
                 <div class="shrink-0">
                   <img
@@ -922,7 +1101,7 @@
                   />
                 </div>
 
-                <div class="space-y-3">
+                <div class="space-y-2">
                   <h3 class="text-lg font-semibold font-Archivo leading-6">
                     Prosper Germoh – Your Dominion (GOSPEL ALBUM)
                   </h3>
@@ -955,7 +1134,7 @@
               </div>
 
               <div
-                class="border-t border-[#E0E0E0] py-4 px-3 flex items-center space-x-4"
+                class="h-[118px] border-t border-[#E0E0E0] py-4 px-3 flex items-center space-x-4"
               >
                 <div class="shrink-0">
                   <img
@@ -965,7 +1144,7 @@
                   />
                 </div>
 
-                <div class="space-y-3">
+                <div class="space-y-2">
                   <h3 class="text-lg font-semibold font-Archivo leading-6">
                     Prosper Germoh – Your Dominion (GOSPEL ALBUM)
                   </h3>
@@ -998,7 +1177,7 @@
               </div>
 
               <div
-                class="border-t border-[#E0E0E0] py-4 px-3 flex items-center space-x-4"
+                class="h-[118px] border-t border-[#E0E0E0] py-4 px-3 flex items-center space-x-4"
               >
                 <div class="shrink-0">
                   <img
@@ -1008,7 +1187,7 @@
                   />
                 </div>
 
-                <div class="space-y-3">
+                <div class="space-y-2">
                   <h3 class="text-lg font-semibold font-Archivo leading-6">
                     Prosper Germoh – Your Dominion (GOSPEL ALBUM)
                   </h3>
@@ -1041,7 +1220,7 @@
               </div>
 
               <div
-                class="border-t border-[#E0E0E0] py-4 px-3 flex items-center space-x-4"
+                class="h-[118px] border-t border-[#E0E0E0] py-4 px-3 flex items-center space-x-4"
               >
                 <div class="shrink-0">
                   <img
@@ -1051,7 +1230,7 @@
                   />
                 </div>
 
-                <div class="space-y-3">
+                <div class="space-y-2">
                   <h3 class="text-lg font-semibold font-Archivo leading-6">
                     Prosper Germoh – Your Dominion (GOSPEL ALBUM)
                   </h3>
@@ -1084,7 +1263,7 @@
               </div>
 
               <div
-                class="border-t border-[#E0E0E0] py-4 px-3 flex items-center space-x-4"
+                class="h-[118px] border-t border-[#E0E0E0] py-4 px-3 flex items-center space-x-4"
               >
                 <div class="shrink-0">
                   <img
@@ -1094,7 +1273,7 @@
                   />
                 </div>
 
-                <div class="space-y-3">
+                <div class="space-y-2">
                   <h3 class="text-lg font-semibold font-Archivo leading-6">
                     Prosper Germoh – Your Dominion (GOSPEL ALBUM)
                   </h3>
@@ -1127,7 +1306,7 @@
               </div>
 
               <div
-                class="border-t border-[#E0E0E0] py-4 px-3 flex items-center space-x-4"
+                class="h-[118px] border-t border-[#E0E0E0] py-4 px-3 flex items-center space-x-4"
               >
                 <div class="shrink-0">
                   <img
@@ -1137,7 +1316,7 @@
                   />
                 </div>
 
-                <div class="space-y-3">
+                <div class="space-y-2">
                   <h3 class="text-lg font-semibold font-Archivo leading-6">
                     Prosper Germoh – Your Dominion (GOSPEL ALBUM)
                   </h3>
@@ -1170,7 +1349,7 @@
               </div>
 
               <div
-                class="border-t border-[#E0E0E0] py-4 px-3 flex items-center space-x-4"
+                class="h-[118px] border-t border-[#E0E0E0] py-4 px-3 flex items-center space-x-4"
               >
                 <div class="shrink-0">
                   <img
@@ -1180,7 +1359,7 @@
                   />
                 </div>
 
-                <div class="space-y-3">
+                <div class="space-y-2">
                   <h3 class="text-lg font-semibold font-Archivo leading-6">
                     Prosper Germoh – Your Dominion (GOSPEL ALBUM)
                   </h3>
@@ -1213,7 +1392,7 @@
               </div>
 
               <div
-                class="border-t border-[#E0E0E0] py-4 px-3 flex items-center space-x-4"
+                class="h-[118px] border-t border-[#E0E0E0] py-4 px-3 flex items-center space-x-4"
               >
                 <div class="shrink-0">
                   <img
@@ -1223,7 +1402,7 @@
                   />
                 </div>
 
-                <div class="space-y-3">
+                <div class="space-y-2">
                   <h3 class="text-lg font-semibold font-Archivo leading-6">
                     Prosper Germoh – Your Dominion (GOSPEL ALBUM)
                   </h3>
@@ -1256,7 +1435,7 @@
               </div>
 
               <div
-                class="border-t border-[#E0E0E0] py-4 px-3 flex items-center space-x-4"
+                class="h-[118px] border-t border-[#E0E0E0] py-4 px-3 flex items-center space-x-4"
               >
                 <div class="shrink-0">
                   <img
@@ -1266,7 +1445,7 @@
                   />
                 </div>
 
-                <div class="space-y-3">
+                <div class="space-y-2">
                   <h3 class="text-lg font-semibold font-Archivo leading-6">
                     Prosper Germoh – Your Dominion (GOSPEL ALBUM)
                   </h3>
@@ -1299,7 +1478,7 @@
               </div>
 
               <div
-                class="border-t border-[#E0E0E0] py-4 px-3 flex items-center space-x-4"
+                class="h-[118px] border-t border-[#E0E0E0] py-4 px-3 flex items-center space-x-4"
               >
                 <div class="shrink-0">
                   <img
@@ -1309,7 +1488,7 @@
                   />
                 </div>
 
-                <div class="space-y-3">
+                <div class="space-y-2">
                   <h3 class="text-lg font-semibold font-Archivo leading-6">
                     Prosper Germoh – Your Dominion (GOSPEL ALBUM)
                   </h3>
@@ -1342,7 +1521,7 @@
               </div>
 
               <div
-                class="border-t border-[#E0E0E0] py-4 px-3 flex items-center space-x-4"
+                class="h-[118px] border-t border-[#E0E0E0] py-4 px-3 flex items-center space-x-4"
               >
                 <div class="shrink-0">
                   <img
@@ -1352,7 +1531,7 @@
                   />
                 </div>
 
-                <div class="space-y-3">
+                <div class="space-y-2">
                   <h3 class="text-lg font-semibold font-Archivo leading-6">
                     Prosper Germoh – Your Dominion (GOSPEL ALBUM)
                   </h3>
@@ -1385,7 +1564,7 @@
               </div>
 
               <div
-                class="border-t border-[#E0E0E0] py-4 px-3 flex items-center space-x-4"
+                class="h-[118px] border-t border-[#E0E0E0] py-4 px-3 flex items-center space-x-4"
               >
                 <div class="shrink-0">
                   <img
@@ -1395,7 +1574,7 @@
                   />
                 </div>
 
-                <div class="space-y-3">
+                <div class="space-y-2">
                   <h3 class="text-lg font-semibold font-Archivo leading-6">
                     Prosper Germoh – Your Dominion (GOSPEL ALBUM)
                   </h3>
@@ -1428,7 +1607,7 @@
               </div>
 
               <div
-                class="border-t border-[#E0E0E0] py-4 px-3 flex items-center space-x-4"
+                class="h-[118px] border-t border-[#E0E0E0] py-4 px-3 flex items-center space-x-4"
               >
                 <div class="shrink-0">
                   <img
@@ -1438,7 +1617,7 @@
                   />
                 </div>
 
-                <div class="space-y-3">
+                <div class="space-y-2">
                   <h3 class="text-lg font-semibold font-Archivo leading-6">
                     Prosper Germoh – Your Dominion (GOSPEL ALBUM)
                   </h3>
@@ -1471,7 +1650,7 @@
               </div>
 
               <div
-                class="border-t border-[#E0E0E0] py-4 px-3 flex items-center space-x-4"
+                class="h-[118px] border-t border-[#E0E0E0] py-4 px-3 flex items-center space-x-4"
               >
                 <div class="shrink-0">
                   <img
@@ -1481,7 +1660,7 @@
                   />
                 </div>
 
-                <div class="space-y-3">
+                <div class="space-y-2">
                   <h3 class="text-lg font-semibold font-Archivo leading-6">
                     Prosper Germoh – Your Dominion (GOSPEL ALBUM)
                   </h3>
@@ -1514,7 +1693,7 @@
               </div>
 
               <div
-                class="border-t border-[#E0E0E0] py-4 px-3 flex items-center space-x-4"
+                class="h-[118px] border-t border-[#E0E0E0] py-4 px-3 flex items-center space-x-4"
               >
                 <div class="shrink-0">
                   <img
@@ -1524,7 +1703,7 @@
                   />
                 </div>
 
-                <div class="space-y-3">
+                <div class="space-y-2">
                   <h3 class="text-lg font-semibold font-Archivo leading-6">
                     Prosper Germoh – Your Dominion (GOSPEL ALBUM)
                   </h3>
@@ -1557,7 +1736,7 @@
               </div>
 
               <div
-                class="border-t border-[#E0E0E0] py-4 px-3 flex items-center space-x-4"
+                class="h-[118px] border-t border-[#E0E0E0] py-4 px-3 flex items-center space-x-4"
               >
                 <div class="shrink-0">
                   <img
@@ -1567,7 +1746,7 @@
                   />
                 </div>
 
-                <div class="space-y-3">
+                <div class="space-y-2">
                   <h3 class="text-lg font-semibold font-Archivo leading-6">
                     Prosper Germoh – Your Dominion (GOSPEL ALBUM)
                   </h3>
@@ -1600,7 +1779,7 @@
               </div>
 
               <div
-                class="border-t border-[#E0E0E0] py-4 px-3 flex items-center space-x-4"
+                class="h-[118px] border-t border-[#E0E0E0] py-4 px-3 flex items-center space-x-4"
               >
                 <div class="shrink-0">
                   <img
@@ -1610,7 +1789,7 @@
                   />
                 </div>
 
-                <div class="space-y-3">
+                <div class="space-y-2">
                   <h3 class="text-lg font-semibold font-Archivo leading-6">
                     Prosper Germoh – Your Dominion (GOSPEL ALBUM)
                   </h3>
@@ -1643,7 +1822,7 @@
               </div>
 
               <div
-                class="border-t border-[#E0E0E0] py-4 px-3 flex items-center space-x-4"
+                class="h-[118px] border-t border-[#E0E0E0] py-4 px-3 flex items-center space-x-4"
               >
                 <div class="shrink-0">
                   <img
@@ -1653,7 +1832,7 @@
                   />
                 </div>
 
-                <div class="space-y-3">
+                <div class="space-y-2">
                   <h3 class="text-lg font-semibold font-Archivo leading-6">
                     Prosper Germoh – Your Dominion (GOSPEL ALBUM)
                   </h3>
@@ -1686,7 +1865,7 @@
               </div>
 
               <div
-                class="border-b border-t border-[#E0E0E0] py-4 px-3 flex items-center space-x-4"
+                class="h-[118px] border-b border-t border-[#E0E0E0] py-4 px-3 flex items-center space-x-4"
               >
                 <div class="shrink-0">
                   <img
@@ -1696,7 +1875,7 @@
                   />
                 </div>
 
-                <div class="space-y-3">
+                <div class="space-y-2">
                   <h3 class="text-lg font-semibold font-Archivo leading-6">
                     Prosper Germoh – Your Dominion (GOSPEL ALBUM)
                   </h3>
@@ -1727,6 +1906,7 @@
                   </span>
                 </div>
               </div>
+
               <!--view more posts-->
               <div class="flex items-center mt-12 justify-center">
                 <div
@@ -1754,7 +1934,7 @@
               </div>
             </div>
 
-            <!--trending posts/ latest posts right-->
+            <!--trending posts/ latest posts right side-->
             <div class="col-span-1 md:col-span-4">
               <!--search for post/music-->
               <div class="h-[156px] bg-[#F8F3E5] p-4 mb-12 rounded-xl shrink-0">
@@ -2274,31 +2454,69 @@
 
                 <!--jambaze weekly-->
                 <div
-                  class="h-[224px] bg-[#F8F3E5] p-4 mb-12 rounded-xl shrink-0"
+                  class="h-[224px] bg-[#F8F3E5] p-6 mb-12 rounded-xl space-y-3"
                 >
                   <div
-                    class="w-[318px] h-[39px] font-Archivo font-bold text-xl"
+                    class="w-[195px] h-[39px] font-Archivo font-bold text-xl"
                   >
                     <h2>JamBaze Weekly</h2>
+                  </div>
+                  <div
+                    class="w-[350px] h-[52px] text-base font-Archivo font-normal"
+                  >
                     <h3>
                       Get access to JamBaze New Music Friday and curated
                       playlists.
                     </h3>
                   </div>
+
                   <div class="flex items-center">
                     <div
                       class="bg-[#FFFFFF] flex items-center w-[350px] h-[53px] rounded p-1"
                     >
-                      <div class="flex items-center">
+                      <div class="flex items-center mr-2">
                         <svg
                           width="22"
-                          height="19"
+                          height="22"
                           viewBox="0 0 22 19"
                           fill="none"
                           xmlns="http://www.w3.org/2000/svg"
                         >
                           <path
-                            d="M21 4.5L12.03 10.2C11.7213 10.3934 11.3643 10.496 11 10.496C10.6357 10.496 10.2787 10.3934 9.97 10.2L1 4.5M3 1.5H19C20.1046 1.5 21 2.39543 21 3.5V15.5C21 16.6046 20.1046 17.5 19 17.5H3C1.89543 17.5 1 16.6046 1 15.5V3.5C1 2.39543 1.89543 1.5 3 1.5Z"
+                            .03
+                            10.2C11.7213
+                            10.3934
+                            11.3643
+                            10.496
+                            11
+                            10.496C10.6357
+                            10.496
+                            10.2787
+                            10.3934
+                            9.97
+                            10.2L1
+                            4.5M3
+                            1.5H19C20.1046
+                            1.5
+                            21
+                            2.39543
+                            21
+                            3.5V15.5C21
+                            16.6046
+                            20.1046
+                            17.5
+                            19
+                            17.5H3C1.89543
+                            17.5
+                            1
+                            16.6046
+                            1
+                            15.5V3.5C1
+                            2.39543
+                            1.89543
+                            1.5
+                            3
+                            1.5Z
                             stroke="#71717A"
                             stroke-width="2"
                             stroke-linecap="round"
@@ -2312,11 +2530,70 @@
                         class="w-[207px] h-[24px] text-[#71717A] font-inter text-sm leading-6 font-normal"
                       />
                       <button
-                        class="w-[77px] h-[41px] bg-[#F44C1C] px-6 py-3 flex text-center rounded text-[#FAF8F0] font-inter text-sm font-medium"
+                        class="w-[77px] h-[41px] bg-[#F44C1C] px-6 py-3 flex text-center rounded text-[#FAF8F0] font-inter text-sm font-medium ml-2"
                       >
                         Join
                       </button>
                     </div>
+                  </div>
+                </div>
+              </div>
+
+              <!--follow social media-->
+              <div>
+                <div class="h-[221px] bg-[#18181B] p-6 rounded-xl">
+                  <div
+                    class="text-[#FFFFFF] font-bold text-2xl uppercase font-Archivo leading-normal"
+                  >
+                    <h2>Follow the conversation on our social media pages</h2>
+                  </div>
+                  <div class="flex items-center mt-6 space-x-5">
+                    <span
+                      ><svg
+                        width="28"
+                        height="25"
+                        viewBox="0 0 28 25"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M21.667 0H25.7565L16.8232 10.2362L27.3337 24.1676H19.1051L12.6556 15.72L5.28414 24.1676H1.1908L10.7451 13.2152L0.666992 0.00190474H9.10509L14.926 7.7219L21.667 0ZM20.2289 21.7143H22.4956L7.86699 2.32571H5.43652L20.2289 21.7143Z"
+                          fill="white"
+                        />
+                      </svg>
+                    </span>
+                    <span
+                      ><svg
+                        width="28"
+                        height="28"
+                        viewBox="0 0 28 28"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8.40033 0.666992H19.6003C23.867 0.666992 27.3337 4.13366 27.3337 8.40033V19.6003C27.3337 21.6513 26.5189 23.6183 25.0686 25.0686C23.6183 26.5189 21.6513 27.3337 19.6003 27.3337H8.40033C4.13366 27.3337 0.666992 23.867 0.666992 19.6003V8.40033C0.666992 6.34932 1.48175 4.38231 2.93203 2.93203C4.38231 1.48175 6.34932 0.666992 8.40033 0.666992ZM8.13366 3.33366C6.86062 3.33366 5.63972 3.83937 4.73955 4.73955C3.83937 5.63972 3.33366 6.86062 3.33366 8.13366V19.867C3.33366 22.5203 5.48033 24.667 8.13366 24.667H19.867C21.14 24.667 22.3609 24.1613 23.2611 23.2611C24.1613 22.3609 24.667 21.14 24.667 19.867V8.13366C24.667 5.48033 22.5203 3.33366 19.867 3.33366H8.13366ZM21.0003 5.33366C21.4424 5.33366 21.8663 5.50925 22.1788 5.82181C22.4914 6.13437 22.667 6.5583 22.667 7.00033C22.667 7.44235 22.4914 7.86628 22.1788 8.17884C21.8663 8.4914 21.4424 8.66699 21.0003 8.66699C20.5583 8.66699 20.1344 8.4914 19.8218 8.17884C19.5093 7.86628 19.3337 7.44235 19.3337 7.00033C19.3337 6.5583 19.5093 6.13437 19.8218 5.82181C20.1344 5.50925 20.5583 5.33366 21.0003 5.33366ZM14.0003 7.33366C15.7684 7.33366 17.4641 8.03604 18.7144 9.28628C19.9646 10.5365 20.667 12.2322 20.667 14.0003C20.667 15.7684 19.9646 17.4641 18.7144 18.7144C17.4641 19.9646 15.7684 20.667 14.0003 20.667C12.2322 20.667 10.5365 19.9646 9.28628 18.7144C8.03604 17.4641 7.33366 15.7684 7.33366 14.0003C7.33366 12.2322 8.03604 10.5365 9.28628 9.28628C10.5365 8.03604 12.2322 7.33366 14.0003 7.33366ZM14.0003 10.0003C12.9395 10.0003 11.922 10.4218 11.1719 11.1719C10.4218 11.922 10.0003 12.9395 10.0003 14.0003C10.0003 15.0612 10.4218 16.0786 11.1719 16.8288C11.922 17.5789 12.9395 18.0003 14.0003 18.0003C15.0612 18.0003 16.0786 17.5789 16.8288 16.8288C17.5789 16.0786 18.0003 15.0612 18.0003 14.0003C18.0003 12.9395 17.5789 11.922 16.8288 11.1719C16.0786 10.4218 15.0612 10.0003 14.0003 10.0003Z"
+                          fill="white"
+                        />
+                      </svg>
+                    </span>
+                    <span
+                      ><svg
+                        width="28"
+                        height="28"
+                        viewBox="0 0 28 28"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M12.26 9.91665V11.7527H10.916V13.9967H12.26V20.6673H15.0227V13.9967H16.876C16.876 13.9967 17.0507 12.9207 17.1347 11.7433H15.0333V10.21C15.0333 9.97932 15.3347 9.67132 15.6333 9.67132H17.1373V7.33398H15.0907C12.192 7.33398 12.26 9.58065 12.26 9.91665Z"
+                          fill="white"
+                        />
+                        <path
+                          d="M6.00033 3.33366C5.29308 3.33366 4.6148 3.61461 4.11471 4.11471C3.61461 4.6148 3.33366 5.29308 3.33366 6.00033V22.0003C3.33366 22.7076 3.61461 23.3858 4.11471 23.8859C4.6148 24.386 5.29308 24.667 6.00033 24.667H22.0003C22.7076 24.667 23.3858 24.386 23.8859 23.8859C24.386 23.3858 24.667 22.7076 24.667 22.0003V6.00033C24.667 5.29308 24.386 4.6148 23.8859 4.11471C23.3858 3.61461 22.7076 3.33366 22.0003 3.33366H6.00033ZM6.00033 0.666992H22.0003C23.4148 0.666992 24.7714 1.2289 25.7716 2.22909C26.7718 3.22928 27.3337 4.58584 27.3337 6.00033V22.0003C27.3337 23.4148 26.7718 24.7714 25.7716 25.7716C24.7714 26.7718 23.4148 27.3337 22.0003 27.3337H6.00033C4.58584 27.3337 3.22928 26.7718 2.22909 25.7716C1.2289 24.7714 0.666992 23.4148 0.666992 22.0003V6.00033C0.666992 4.58584 1.2289 3.22928 2.22909 2.22909C3.22928 1.2289 4.58584 0.666992 6.00033 0.666992Z"
+                          fill="white"
+                        />
+                      </svg>
+                    </span>
                   </div>
                 </div>
               </div>
