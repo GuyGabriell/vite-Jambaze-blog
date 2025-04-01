@@ -118,7 +118,7 @@
         </h1>
         <!--hero-section-->
         <div class="grid gap-6 md:grid-cols-12 gap-8 mb-24">
-          <div class="cols-span-1 md:col-span-7 relative">
+          <div class="col-span-1 md:col-span-7 relative">
             <img
               src="src/images/img.jpeg"
               class="w-full md:h-[480px] object-cover"
@@ -622,10 +622,8 @@
                   </button>
                 </div>
               </div>
-
             </div>
             <div class="col-span-1 md:col-span-6">
-
               <div
                 class="flex items-center justify-between border-t-1 border-[#E0E0E0] p-3"
               >
@@ -840,7 +838,6 @@
                   </button>
                 </div>
               </div>
-
             </div>
           </div>
         </div>
@@ -853,7 +850,7 @@
         />
 
         <!--display this section only on desktop-->
-        <div class="mb-12 cols-span-1 md:col-span-5 block md:hidden">
+        <div class="mb-12 col-span-1 md:col-span-5 block md:hidden">
           <div
             class="flex mb-6 text-base font-Archivo items-center justify-between text-[#121212]"
           >
@@ -866,7 +863,7 @@
               Trending Post
             </h3>
           </div>
-          <div class="cols-span-1 md:col-span-5">
+          <div class="col-span-1 md:col-span-5">
             <div
               class="border-t border-[#E0E0E0] py-4 px-3 flex items-center space-x-4"
             >
@@ -1038,8 +1035,6 @@
                 </span>
               </div>
             </div>
-
-            <div></div>
           </div>
         </div>
 
@@ -1924,7 +1919,7 @@
 
               <!--view more posts-->
               <div class="flex items-center mt-12 justify-center">
-                <div
+                <button
                   class="flex items-center justify-center space-x-2 w-[202px] h-[50px] border border-[#E0E0E0] rounded-sm"
                 >
                   <span class="text-base font-semibold font-Archivo"
@@ -1945,22 +1940,22 @@
                       stroke-linejoin="round"
                     />
                   </svg>
-                </div>
+                </button>
               </div>
             </div>
 
             <!--trending posts/ latest posts right side-->
             <div class="md:col-span-4 gap-8">
               <!--search for post/music-->
-              <div class="h-[156px] bg-[#F8F3E5] p-6 mb-12 rounded-xl">
-                <div
-                  class="mb-4 h-[39px] font-Archivo font-bold text-xl text-center flex items-center pl-8"
-                >
-                  <h2>SEARCH FOR POST/MUSIC</h2>
+              <div
+                class="w-full h-[156px] bg-[#F8F3E5] p-6 mb-12 rounded-xl space-y-4"
+              >
+                <div class="font-Archivo font-bold text-xl">
+                  <span>SEARCH FOR POST/MUSIC</span>
                 </div>
-                <div class="flex items-center justify-center">
+                <div class="flex items-center">
                   <div
-                    class="bg-[#FFFFFF] flex items-center w-[350px] h-[53px] rounded p-2"
+                    class="bg-[#FFFFFF] flex items-center h-[53px] rounded p-2"
                   >
                     <div class="flex items-center mr-">
                       <svg
@@ -1983,12 +1978,12 @@
                     <input
                       type="text"
                       placeholder="Search for music and posts"
-                      class="w-[207px] h-[24px] text-[#71717A] font-inter text-sm leading-6 font-normal"
+                      class="h-[24px] text-[#71717A] font-inter text-sm leading-6 font-normal"
                     />
                     <button
-                      class="max-w-full h-[41px] bg-[#F44C1C] px-6 py-3 flex text-center rounded text-[#FAF8F0] font-inter text-sm font-medium"
+                      class="w-full h-[41px] bg-[#F44C1C] px-6 py-3 flex text-center rounded text-[#FAF8F0] font-inter text-sm font-medium"
                     >
-                      Search
+                      <span>Search</span>
                     </button>
                   </div>
                 </div>
@@ -1999,7 +1994,9 @@
                   TRENDING TOPICS
                 </h2>
                 <div class="space-y-4">
-                  <button class="flex items-center border-1 border-[#E0E0E0] space-x-4 py-1.5 px-3 rounded-sm">
+                  <button
+                    class="flex items-center border-1 border-[#E0E0E0] space-x-4 py-1.5 px-3 rounded-sm"
+                  >
                     <svg
                       width="14"
                       height="16"
@@ -2017,13 +2014,14 @@
 
                     <span
                       class="font-Archivo font-normal text-base text-[#121212]"
-                      >
-                      Music
-                    </span
                     >
+                      Music
+                    </span>
                   </button>
 
-                  <button class="flex items-center border-1 border-[#E0E0E0] space-x-4 py-1.5 px-3 rounded-sm">
+                  <button
+                    class="flex items-center border-1 border-[#E0E0E0] space-x-4 py-1.5 px-3 rounded-sm"
+                  >
                     <svg
                       width="14"
                       height="16"
@@ -2045,7 +2043,9 @@
                     >
                   </button>
 
-                  <button class="flex items-center border-1 border-[#E0E0E0] space-x-4 py-1.5 px-3 rounded-sm">
+                  <button
+                    class="flex items-center border-1 border-[#E0E0E0] space-x-4 py-1.5 px-3 rounded-sm"
+                  >
                     <svg
                       width="14"
                       height="16"
@@ -2067,7 +2067,9 @@
                     >
                   </button>
 
-                  <button class="flex items-center border-1 border-[#E0E0E0] space-x-4 py-1.5 px-3 rounded-sm">
+                  <button
+                    class="flex items-center border-1 border-[#E0E0E0] space-x-4 py-1.5 px-3 rounded-sm"
+                  >
                     <svg
                       width="14"
                       height="16"
@@ -2089,7 +2091,9 @@
                     >
                   </button>
 
-                  <button class="flex items-center border-1 border-[#E0E0E0] space-x-4 py-1.5 px-3 rounded-sm">
+                  <button
+                    class="flex items-center border-1 border-[#E0E0E0] space-x-4 py-1.5 px-3 rounded-sm"
+                  >
                     <svg
                       width="14"
                       height="16"
@@ -2470,371 +2474,367 @@
                 </div>
 
                 <!--jambaze weekly-->
-                <div
-                  class="flex flex-col bg-[#F8F3E5] p-6 mb-12 rounded-xl space-y-3"
-                >
-                  <div class="pl-8 font-Archivo font-bold text-xl">
-                    <h2>JamBaze Weekly</h2>
+                <div class="bg-[#F8F3E5] p-6 mb-12 rounded-xl space-y">
+                  <div class="font-Archivo font-bold text-xl">
+                    <span>JamBaze Weekly</span>
                   </div>
-                  <div
-                    class="w-[350px] text-base font-Archivo font-normal self-center"
-                  >
-                    <h3>
+                  <div class="w-full text-base font-Archivo font-normal">
+                    <span>
                       Get access to JamBaze New Music Friday and curated
                       playlists.
-                    </h3>
-                  </div>
+                    </span>
 
-                  <div class="flex items-center justify-center">
+                    <div class="flex items-center">
+                      <div
+                        class="bg-[#FFFFFF] flex items-center w-full h-[53px] rounded p-1"
+                      >
+                        <div class="flex items-center mr-2">
+                          <svg
+                            width="22"
+                            height="22"
+                            viewBox="0 0 22 19"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              .03
+                              10.2C11.7213
+                              10.3934
+                              11.3643
+                              10.496
+                              11
+                              10.496C10.6357
+                              10.496
+                              10.2787
+                              10.3934
+                              9.97
+                              10.2L1
+                              4.5M3
+                              1.5H19C20.1046
+                              1.5
+                              21
+                              2.39543
+                              21
+                              3.5V15.5C21
+                              16.6046
+                              20.1046
+                              17.5
+                              19
+                              17.5H3C1.89543
+                              17.5
+                              1
+                              16.6046
+                              1
+                              15.5V3.5C1
+                              2.39543
+                              1.89543
+                              1.5
+                              3
+                              1.5Z
+                              stroke="#71717A"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                          </svg>
+                        </div>
+                        <input
+                          type="text"
+                          placeholder="Email address"
+                          class="w-full h-[24px] text-[#71717A] font-inter text-sm leading-6 font-normal"
+                        />
+                        <button
+                          class="w-[77px] h-[41px] bg-[#F44C1C] px-6 py-3 flex text-center rounded text-[#FAF8F0] font-inter text-sm font-medium ml-2"
+                        >
+                          <span>Join</span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!--follow social media-->
+                <div>
+                  <div class="h-[221px] bg-[#18181B] p-6 rounded-xl">
                     <div
-                      class="bg-[#FFFFFF] flex items-center w-full h-[53px] rounded p-1"
+                      class="text-[#FFFFFF] font-bold text-2xl uppercase font-Archivo leading-normal"
                     >
-                      <div class="flex items-center mr-2">
-                        <svg
-                          width="22"
-                          height="22"
-                          viewBox="0 0 22 19"
+                      <h2>Follow the conversation on our social media pages</h2>
+                    </div>
+                    <div class="flex items-center mt-6 space-x-5">
+                      <span
+                        ><svg
+                          width="28"
+                          height="25"
+                          viewBox="0 0 28 25"
                           fill="none"
                           xmlns="http://www.w3.org/2000/svg"
                         >
                           <path
-                            .03
-                            10.2C11.7213
-                            10.3934
-                            11.3643
-                            10.496
-                            11
-                            10.496C10.6357
-                            10.496
-                            10.2787
-                            10.3934
-                            9.97
-                            10.2L1
-                            4.5M3
-                            1.5H19C20.1046
-                            1.5
-                            21
-                            2.39543
-                            21
-                            3.5V15.5C21
-                            16.6046
-                            20.1046
-                            17.5
-                            19
-                            17.5H3C1.89543
-                            17.5
-                            1
-                            16.6046
-                            1
-                            15.5V3.5C1
-                            2.39543
-                            1.89543
-                            1.5
-                            3
-                            1.5Z
-                            stroke="#71717A"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
+                            d="M21.667 0H25.7565L16.8232 10.2362L27.3337 24.1676H19.1051L12.6556 15.72L5.28414 24.1676H1.1908L10.7451 13.2152L0.666992 0.00190474H9.10509L14.926 7.7219L21.667 0ZM20.2289 21.7143H22.4956L7.86699 2.32571H5.43652L20.2289 21.7143Z"
+                            fill="white"
                           />
                         </svg>
-                      </div>
-                      <input
-                        type="text"
-                        placeholder="Email address"
-                        class="w-full h-[24px] text-[#71717A] font-inter text-sm leading-6 font-normal"
-                      />
-                      <button
-                        class="w-[77px] h-[41px] bg-[#F44C1C] px-6 py-3 flex text-center rounded text-[#FAF8F0] font-inter text-sm font-medium ml-2"
-                      >
-                        Join
-                      </button>
+                      </span>
+                      <span
+                        ><svg
+                          width="28"
+                          height="28"
+                          viewBox="0 0 28 28"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M8.40033 0.666992H19.6003C23.867 0.666992 27.3337 4.13366 27.3337 8.40033V19.6003C27.3337 21.6513 26.5189 23.6183 25.0686 25.0686C23.6183 26.5189 21.6513 27.3337 19.6003 27.3337H8.40033C4.13366 27.3337 0.666992 23.867 0.666992 19.6003V8.40033C0.666992 6.34932 1.48175 4.38231 2.93203 2.93203C4.38231 1.48175 6.34932 0.666992 8.40033 0.666992ZM8.13366 3.33366C6.86062 3.33366 5.63972 3.83937 4.73955 4.73955C3.83937 5.63972 3.33366 6.86062 3.33366 8.13366V19.867C3.33366 22.5203 5.48033 24.667 8.13366 24.667H19.867C21.14 24.667 22.3609 24.1613 23.2611 23.2611C24.1613 22.3609 24.667 21.14 24.667 19.867V8.13366C24.667 5.48033 22.5203 3.33366 19.867 3.33366H8.13366ZM21.0003 5.33366C21.4424 5.33366 21.8663 5.50925 22.1788 5.82181C22.4914 6.13437 22.667 6.5583 22.667 7.00033C22.667 7.44235 22.4914 7.86628 22.1788 8.17884C21.8663 8.4914 21.4424 8.66699 21.0003 8.66699C20.5583 8.66699 20.1344 8.4914 19.8218 8.17884C19.5093 7.86628 19.3337 7.44235 19.3337 7.00033C19.3337 6.5583 19.5093 6.13437 19.8218 5.82181C20.1344 5.50925 20.5583 5.33366 21.0003 5.33366ZM14.0003 7.33366C15.7684 7.33366 17.4641 8.03604 18.7144 9.28628C19.9646 10.5365 20.667 12.2322 20.667 14.0003C20.667 15.7684 19.9646 17.4641 18.7144 18.7144C17.4641 19.9646 15.7684 20.667 14.0003 20.667C12.2322 20.667 10.5365 19.9646 9.28628 18.7144C8.03604 17.4641 7.33366 15.7684 7.33366 14.0003C7.33366 12.2322 8.03604 10.5365 9.28628 9.28628C10.5365 8.03604 12.2322 7.33366 14.0003 7.33366ZM14.0003 10.0003C12.9395 10.0003 11.922 10.4218 11.1719 11.1719C10.4218 11.922 10.0003 12.9395 10.0003 14.0003C10.0003 15.0612 10.4218 16.0786 11.1719 16.8288C11.922 17.5789 12.9395 18.0003 14.0003 18.0003C15.0612 18.0003 16.0786 17.5789 16.8288 16.8288C17.5789 16.0786 18.0003 15.0612 18.0003 14.0003C18.0003 12.9395 17.5789 11.922 16.8288 11.1719C16.0786 10.4218 15.0612 10.0003 14.0003 10.0003Z"
+                            fill="white"
+                          />
+                        </svg>
+                      </span>
+                      <span
+                        ><svg
+                          width="28"
+                          height="28"
+                          viewBox="0 0 28 28"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M12.26 9.91665V11.7527H10.916V13.9967H12.26V20.6673H15.0227V13.9967H16.876C16.876 13.9967 17.0507 12.9207 17.1347 11.7433H15.0333V10.21C15.0333 9.97932 15.3347 9.67132 15.6333 9.67132H17.1373V7.33398H15.0907C12.192 7.33398 12.26 9.58065 12.26 9.91665Z"
+                            fill="white"
+                          />
+                          <path
+                            d="M6.00033 3.33366C5.29308 3.33366 4.6148 3.61461 4.11471 4.11471C3.61461 4.6148 3.33366 5.29308 3.33366 6.00033V22.0003C3.33366 22.7076 3.61461 23.3858 4.11471 23.8859C4.6148 24.386 5.29308 24.667 6.00033 24.667H22.0003C22.7076 24.667 23.3858 24.386 23.8859 23.8859C24.386 23.3858 24.667 22.7076 24.667 22.0003V6.00033C24.667 5.29308 24.386 4.6148 23.8859 4.11471C23.3858 3.61461 22.7076 3.33366 22.0003 3.33366H6.00033ZM6.00033 0.666992H22.0003C23.4148 0.666992 24.7714 1.2289 25.7716 2.22909C26.7718 3.22928 27.3337 4.58584 27.3337 6.00033V22.0003C27.3337 23.4148 26.7718 24.7714 25.7716 25.7716C24.7714 26.7718 23.4148 27.3337 22.0003 27.3337H6.00033C4.58584 27.3337 3.22928 26.7718 2.22909 25.7716C1.2289 24.7714 0.666992 23.4148 0.666992 22.0003V6.00033C0.666992 4.58584 1.2289 3.22928 2.22909 2.22909C3.22928 1.2289 4.58584 0.666992 6.00033 0.666992Z"
+                            fill="white"
+                          />
+                        </svg>
+                      </span>
                     </div>
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
 
-              <!--follow social media-->
-              <div>
-                <div class="h-[221px] bg-[#18181B] p-6 rounded-xl">
-                  <div
-                    class="text-[#FFFFFF] font-bold text-2xl uppercase font-Archivo leading-normal"
-                  >
-                    <h2>Follow the conversation on our social media pages</h2>
-                  </div>
-                  <div class="flex items-center mt-6 space-x-5">
-                    <span
-                      ><svg
-                        width="28"
-                        height="25"
-                        viewBox="0 0 28 25"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M21.667 0H25.7565L16.8232 10.2362L27.3337 24.1676H19.1051L12.6556 15.72L5.28414 24.1676H1.1908L10.7451 13.2152L0.666992 0.00190474H9.10509L14.926 7.7219L21.667 0ZM20.2289 21.7143H22.4956L7.86699 2.32571H5.43652L20.2289 21.7143Z"
-                          fill="white"
-                        />
-                      </svg>
-                    </span>
-                    <span
-                      ><svg
-                        width="28"
-                        height="28"
-                        viewBox="0 0 28 28"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M8.40033 0.666992H19.6003C23.867 0.666992 27.3337 4.13366 27.3337 8.40033V19.6003C27.3337 21.6513 26.5189 23.6183 25.0686 25.0686C23.6183 26.5189 21.6513 27.3337 19.6003 27.3337H8.40033C4.13366 27.3337 0.666992 23.867 0.666992 19.6003V8.40033C0.666992 6.34932 1.48175 4.38231 2.93203 2.93203C4.38231 1.48175 6.34932 0.666992 8.40033 0.666992ZM8.13366 3.33366C6.86062 3.33366 5.63972 3.83937 4.73955 4.73955C3.83937 5.63972 3.33366 6.86062 3.33366 8.13366V19.867C3.33366 22.5203 5.48033 24.667 8.13366 24.667H19.867C21.14 24.667 22.3609 24.1613 23.2611 23.2611C24.1613 22.3609 24.667 21.14 24.667 19.867V8.13366C24.667 5.48033 22.5203 3.33366 19.867 3.33366H8.13366ZM21.0003 5.33366C21.4424 5.33366 21.8663 5.50925 22.1788 5.82181C22.4914 6.13437 22.667 6.5583 22.667 7.00033C22.667 7.44235 22.4914 7.86628 22.1788 8.17884C21.8663 8.4914 21.4424 8.66699 21.0003 8.66699C20.5583 8.66699 20.1344 8.4914 19.8218 8.17884C19.5093 7.86628 19.3337 7.44235 19.3337 7.00033C19.3337 6.5583 19.5093 6.13437 19.8218 5.82181C20.1344 5.50925 20.5583 5.33366 21.0003 5.33366ZM14.0003 7.33366C15.7684 7.33366 17.4641 8.03604 18.7144 9.28628C19.9646 10.5365 20.667 12.2322 20.667 14.0003C20.667 15.7684 19.9646 17.4641 18.7144 18.7144C17.4641 19.9646 15.7684 20.667 14.0003 20.667C12.2322 20.667 10.5365 19.9646 9.28628 18.7144C8.03604 17.4641 7.33366 15.7684 7.33366 14.0003C7.33366 12.2322 8.03604 10.5365 9.28628 9.28628C10.5365 8.03604 12.2322 7.33366 14.0003 7.33366ZM14.0003 10.0003C12.9395 10.0003 11.922 10.4218 11.1719 11.1719C10.4218 11.922 10.0003 12.9395 10.0003 14.0003C10.0003 15.0612 10.4218 16.0786 11.1719 16.8288C11.922 17.5789 12.9395 18.0003 14.0003 18.0003C15.0612 18.0003 16.0786 17.5789 16.8288 16.8288C17.5789 16.0786 18.0003 15.0612 18.0003 14.0003C18.0003 12.9395 17.5789 11.922 16.8288 11.1719C16.0786 10.4218 15.0612 10.0003 14.0003 10.0003Z"
-                          fill="white"
-                        />
-                      </svg>
-                    </span>
-                    <span
-                      ><svg
-                        width="28"
-                        height="28"
-                        viewBox="0 0 28 28"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M12.26 9.91665V11.7527H10.916V13.9967H12.26V20.6673H15.0227V13.9967H16.876C16.876 13.9967 17.0507 12.9207 17.1347 11.7433H15.0333V10.21C15.0333 9.97932 15.3347 9.67132 15.6333 9.67132H17.1373V7.33398H15.0907C12.192 7.33398 12.26 9.58065 12.26 9.91665Z"
-                          fill="white"
-                        />
-                        <path
-                          d="M6.00033 3.33366C5.29308 3.33366 4.6148 3.61461 4.11471 4.11471C3.61461 4.6148 3.33366 5.29308 3.33366 6.00033V22.0003C3.33366 22.7076 3.61461 23.3858 4.11471 23.8859C4.6148 24.386 5.29308 24.667 6.00033 24.667H22.0003C22.7076 24.667 23.3858 24.386 23.8859 23.8859C24.386 23.3858 24.667 22.7076 24.667 22.0003V6.00033C24.667 5.29308 24.386 4.6148 23.8859 4.11471C23.3858 3.61461 22.7076 3.33366 22.0003 3.33366H6.00033ZM6.00033 0.666992H22.0003C23.4148 0.666992 24.7714 1.2289 25.7716 2.22909C26.7718 3.22928 27.3337 4.58584 27.3337 6.00033V22.0003C27.3337 23.4148 26.7718 24.7714 25.7716 25.7716C24.7714 26.7718 23.4148 27.3337 22.0003 27.3337H6.00033C4.58584 27.3337 3.22928 26.7718 2.22909 25.7716C1.2289 24.7714 0.666992 23.4148 0.666992 22.0003V6.00033C0.666992 4.58584 1.2289 3.22928 2.22909 2.22909C3.22928 1.2289 4.58584 0.666992 6.00033 0.666992Z"
-                          fill="white"
-                        />
-                      </svg>
-                    </span>
-                  </div>
+          <!-- Top artists -->
+          <div class="w-full px-auto md:max-w-[1240px] mx-auto mb-24">
+            <!-- Main container -->
+            <div class="flex items-center justify-between font-Archivo mb-6">
+              <h2 class="font-bold text-2xl">Top Artistes</h2>
+              <h2
+                class="text-lg font-medium underline decoration-solid decoration-0"
+              >
+                See all artistes
+              </h2>
+            </div>
+            <div class="grid grid-cols-2 gap-6 md:grid-cols-6 gap-2">
+              <div class="w-full">
+                <img
+                  src="src/artist-pics/arttist-1.png"
+                  alt=""
+                  class="w-full h-[184px] object-cover rounded-t-sm"
+                />
+
+                <div class="font-Archivo bg-[#F5F5F5] p-3 rounded-b-sm">
+                  <h3 class="text-base font-bold">Kanye West</h3>
+                </div>
+              </div>
+
+              <div class="w-full">
+                <img
+                  src="src/artist-pics/artist-2.png"
+                  alt=""
+                  class="w-full h-[184px] object-cover rounded-t-sm"
+                />
+
+                <div class="font-Archivo bg-[#F5F5F5] p-3 rounded-b-sm">
+                  <h3 class="text-base font-bold">Tyler the Creator</h3>
+                </div>
+              </div>
+
+              <div class="w-full">
+                <img
+                  src="src/artist-pics/artist-3.png"
+                  alt=""
+                  class="w-full h-[184px] object-cover rounded-t-sm"
+                />
+
+                <div class="font-Archivo bg-[#F5F5F5] p-3 rounded-b-sm">
+                  <h3 class="text-base font-bold">Phyno</h3>
+                </div>
+              </div>
+
+              <div class="w-full">
+                <img
+                  src="src/artist-pics/artist-4.png"
+                  alt=""
+                  class="w-full h-[184px] object-cover rounded-t-sm"
+                />
+
+                <div class="font-Archivo bg-[#F5F5F5] p-3 rounded-b-sm">
+                  <h3 class="text-base font-bold">Burna Boy</h3>
+                </div>
+              </div>
+
+              <div class="w-full">
+                <img
+                  src="src/artist-pics/artist-5.png"
+                  alt=""
+                  class="w-full h-[184px] object-cover rounded-t-sm"
+                />
+
+                <div class="font-Archivo bg-[#F5F5F5] p-3 rounded-b-sm">
+                  <h3 class="text-base font-bold">Davido</h3>
+                </div>
+              </div>
+
+              <div class="w-full">
+                <img
+                  src="src/artist-pics/artist-6.png"
+                  alt=""
+                  class="w-full h-[184px] object-cover rounded-t-sm"
+                />
+
+                <div class="font-Archivo bg-[#F5F5F5] p-3 rounded-b-sm">
+                  <h3 class="text-base font-bold">Gunna</h3>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
 
-        <!-- Top artists -->
-        <div class="w-full px-auto md:max-w-[1240px] mx-auto mb-24">
-          <!-- Main container -->
-          <div class="flex items-center justify-between font-Archivo mb-6">
-            <h2 class="font-bold text-2xl">Top Artistes</h2>
-            <h2
-              class="text-lg font-medium underline decoration-solid decoration-0"
-            >
-              See all artistes
-            </h2>
-          </div>
-          <div class="grid grid-cols-2 gap-6 md:grid-cols-6 gap-2">
-            <div class="w-full">
-              <img
-                src="src/artist-pics/arttist-1.png"
-                alt=""
-                class="w-full h-[184px] object-cover rounded-t-sm"
-              />
-
-              <div class="font-Archivo bg-[#F5F5F5] p-3 rounded-b-sm">
-                <h3 class="text-base font-bold">Kanye West</h3>
-              </div>
-            </div>
-
-            <div class="w-full">
-              <img
-                src="src/artist-pics/artist-2.png"
-                alt=""
-                class="w-full h-[184px] object-cover rounded-t-sm"
-              />
-
-              <div class="font-Archivo bg-[#F5F5F5] p-3 rounded-b-sm">
-                <h3 class="text-base font-bold">Tyler the Creator</h3>
-              </div>
-            </div>
-
-            <div class="w-full">
-              <img
-                src="src/artist-pics/artist-3.png"
-                alt=""
-                class="w-full h-[184px] object-cover rounded-t-sm"
-              />
-
-              <div class="font-Archivo bg-[#F5F5F5] p-3 rounded-b-sm">
-                <h3 class="text-base font-bold">Phyno</h3>
-              </div>
-            </div>
-
-            <div class="w-full">
-              <img
-                src="src/artist-pics/artist-4.png"
-                alt=""
-                class="w-full h-[184px] object-cover rounded-t-sm"
-              />
-
-              <div class="font-Archivo bg-[#F5F5F5] p-3 rounded-b-sm">
-                <h3 class="text-base font-bold">Burna Boy</h3>
-              </div>
-            </div>
-
-            <div class="w-full">
-              <img
-                src="src/artist-pics/artist-5.png"
-                alt=""
-                class="w-full h-[184px] object-cover rounded-t-sm"
-              />
-
-              <div class="font-Archivo bg-[#F5F5F5] p-3 rounded-b-sm">
-                <h3 class="text-base font-bold">Davido</h3>
-              </div>
-            </div>
-
-            <div class="w-full">
-              <img
-                src="src/artist-pics/artist-6.png"
-                alt=""
-                class="w-full h-[184px] object-cover rounded-t-sm"
-              />
-
-              <div class="font-Archivo bg-[#F5F5F5] p-3 rounded-b-sm">
-                <h3 class="text-base font-bold">Gunna</h3>
-              </div>
-            </div>
-          </div>
-
-          <div class="flex items-center justify-center mt-12">
-            <button
-              class="bg-[#F44C1C] text-white font-medium py-3 px-6 space-x-3 rounded-sm inline-flex items-center"
-            >
-              <svg
-                width="20"
-                height="20"
-                viewBox="0 0 20 20"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
+            <div class="flex items-center justify-center mt-12">
+              <button
+                class="bg-[#F44C1C] text-white font-medium py-3 px-6 space-x-3 rounded-sm inline-flex items-center"
               >
-                <path
-                  d="M19 13V17C19 17.5304 18.7893 18.0391 18.4142 18.4142C18.0391 18.7893 17.5304 19 17 19H3C2.46957 19 1.96086 18.7893 1.58579 18.4142C1.21071 18.0391 1 17.5304 1 17V13M15 6L10 1M10 1L5 6M10 1V13"
-                  stroke="white"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M19 13V17C19 17.5304 18.7893 18.0391 18.4142 18.4142C18.0391 18.7893 17.5304 19 17 19H3C2.46957 19 1.96086 18.7893 1.58579 18.4142C1.21071 18.0391 1 17.5304 1 17V13M15 6L10 1M10 1L5 6M10 1V13"
+                    stroke="white"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+
+                <span>Upload your song</span>
+              </button>
+            </div>
+          </div>
+
+          <!--playlists-->
+          <div class="w-full md:max-w-[1240px] mx-auto mb-24">
+            <!-- Main container -->
+            <div class="flex items-center justify-between font-Archivo mb-6">
+              <h2 class="font-bold text-2xl">Top Artistes</h2>
+            </div>
+
+            <div class="grid grid-cols-2 md:grid-cols-6 gap-6">
+              <div class="w-full">
+                <img
+                  src="src/playlists-pic/playlist-1.png"
+                  alt=""
+                  class="w-full h-[184px] object-cover rounded-t-sm"
                 />
-              </svg>
-
-              <span>Upload your song</span>
-            </button>
-          </div>
-        </div>
-
-        <!--playlists-->
-        <div class="w-full md:max-w-[1240px] mx-auto mb-24">
-          <!-- Main container -->
-          <div class="flex items-center justify-between font-Archivo mb-6">
-            <h2 class="font-bold text-2xl">Top Artistes</h2>
-          </div>
-
-          <div class="grid grid-cols-2 md:grid-cols-6 gap-6">
-            <div class="w-full">
-              <img
-                src="src/playlists-pic/playlist-1.png"
-                alt=""
-                class="w-full h-[184px] object-cover rounded-t-sm"
-              />
-              <div class="font-Archivo bg-[#F5F5F5] p-3 rounded-b-sm">
-                <h3 class="text-base font-semibold">Top 100</h3>
-                <h3 class="text-base font-medium">100 songs</h3>
-                <h3 class="text-base font-bold">Jambaze</h3>
+                <div class="font-Archivo bg-[#F5F5F5] p-3 rounded-b-sm">
+                  <h3 class="text-base font-semibold">Top 100</h3>
+                  <h3 class="text-base font-medium">100 songs</h3>
+                  <h3 class="text-base font-bold">Jambaze</h3>
+                </div>
               </div>
-            </div>
 
-            <div class="w-full">
-              <img
-                src="src/playlists-pic/playlist-2.png"
-                alt=""
-                class="w-full h-[184px] object-cover rounded-t-sm"
-              />
-              <div class="font-Archivo bg-[#F5F5F5] p-3 rounded-b-sm">
-                <h3 class="text-base font-semibold">Top Artists</h3>
-                <h3 class="text-base font-medium">100 artists</h3>
-                <h3 class="text-base font-bold">Jambaze</h3>
-              </div>
-            </div>
-
-            <div class="w-full">
-              <img
-                src="src/playlists-pic/playlist-3.png"
-                alt=""
-                class="w-full h-[184px] object-cover rounded-t-sm"
-              />
-              <div class="font-Archivo bg-[#F5F5F5] p-3 rounded-b-sm">
-                <h3 class="text-base font-semibold">Top Albums</h3>
-                <h3 class="text-base font-medium">100 Albums</h3>
-                <h3 class="text-base font-bold">Jambaze</h3>
-              </div>
-            </div>
-
-            <div class="w-full">
-              <img
-                src="src/playlists-pic/playlist-4.png"
-                alt=""
-                class="w-full h-[184px] object-cover rounded-t-sm"
-              />
-              <div class="font-Archivo bg-[#F5F5F5] p-3 rounded-b-sm">
-                <h3 class="text-base font-semibold">Cool Vibes</h3>
-                <h3 class="text-base font-medium">50 Songs</h3>
-                <h3 class="text-base font-bold">Jambaze</h3>
-              </div>
-            </div>
-
-            <div class="w-full">
-              <img
-                src="src/playlists-pic/playlist-5.png"
-                alt=""
-                class="w-full h-[184px] object-cover rounded-t-sm"
-              />
-              <div class="font-Archivo bg-[#F5F5F5] p-3 rounded-b-sm">
-                <h3 class="text-base font-semibold">Work Mode</h3>
-                <h3 class="text-base font-medium">50 songs</h3>
-                <h3 class="text-base font-bold">Jambaze</h3>
-              </div>
-            </div>
-
-            <div class="w-full">
-              <img
-                src="src/playlists-pic/playlist-6.png"
-                alt=""
-                class="w-full h-[184px] object-cover rounded-t-sm"
-              />
-              <div class="font-Archivo bg-[#F5F5F5] p-3 rounded-b-sm">
-                <h3 class="text-base font-semibold">Afrobeats</h3>
-                <h3 class="text-base font-medium">50 songs</h3>
-                <h3 class="text-base font-bold">Jambaze</h3>
-              </div>
-            </div>
-          </div>
-
-          <div class="flex items-center mt-12 justify-center">
-            <div
-              class="flex items-center justify-center space-x-2 w-[202px] h-[50px] border border-[#E0E0E0] rounded-sm"
-            >
-              <span class="text-base font-semibold font-Archivo"
-                >View all playlists</span
-              >
-              <svg
-                width="17"
-                height="16"
-                viewBox="0 0 17 16"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M1.5 8H15.5M15.5 8L8.5 1M15.5 8L8.5 15"
-                  stroke="#121212"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+              <div class="w-full">
+                <img
+                  src="src/playlists-pic/playlist-2.png"
+                  alt=""
+                  class="w-full h-[184px] object-cover rounded-t-sm"
                 />
-              </svg>
+                <div class="font-Archivo bg-[#F5F5F5] p-3 rounded-b-sm">
+                  <h3 class="text-base font-semibold">Top Artists</h3>
+                  <h3 class="text-base font-medium">100 artists</h3>
+                  <h3 class="text-base font-bold">Jambaze</h3>
+                </div>
+              </div>
+
+              <div class="w-full">
+                <img
+                  src="src/playlists-pic/playlist-3.png"
+                  alt=""
+                  class="w-full h-[184px] object-cover rounded-t-sm"
+                />
+                <div class="font-Archivo bg-[#F5F5F5] p-3 rounded-b-sm">
+                  <h3 class="text-base font-semibold">Top Albums</h3>
+                  <h3 class="text-base font-medium">100 Albums</h3>
+                  <h3 class="text-base font-bold">Jambaze</h3>
+                </div>
+              </div>
+
+              <div class="w-full">
+                <img
+                  src="src/playlists-pic/playlist-4.png"
+                  alt=""
+                  class="w-full h-[184px] object-cover rounded-t-sm"
+                />
+                <div class="font-Archivo bg-[#F5F5F5] p-3 rounded-b-sm">
+                  <h3 class="text-base font-semibold">Cool Vibes</h3>
+                  <h3 class="text-base font-medium">50 Songs</h3>
+                  <h3 class="text-base font-bold">Jambaze</h3>
+                </div>
+              </div>
+
+              <div class="w-full">
+                <img
+                  src="src/playlists-pic/playlist-5.png"
+                  alt=""
+                  class="w-full h-[184px] object-cover rounded-t-sm"
+                />
+                <div class="font-Archivo bg-[#F5F5F5] p-3 rounded-b-sm">
+                  <h3 class="text-base font-semibold">Work Mode</h3>
+                  <h3 class="text-base font-medium">50 songs</h3>
+                  <h3 class="text-base font-bold">Jambaze</h3>
+                </div>
+              </div>
+
+              <div class="w-full">
+                <img
+                  src="src/playlists-pic/playlist-6.png"
+                  alt=""
+                  class="w-full h-[184px] object-cover rounded-t-sm"
+                />
+                <div class="font-Archivo bg-[#F5F5F5] p-3 rounded-b-sm">
+                  <h3 class="text-base font-semibold">Afrobeats</h3>
+                  <h3 class="text-base font-medium">50 songs</h3>
+                  <h3 class="text-base font-bold">Jambaze</h3>
+                </div>
+              </div>
+            </div>
+
+            <div class="flex items-center mt-12 justify-center">
+              <button
+                class="flex items-center justify-center space-x-2 w-[202px] h-[50px] border border-[#E0E0E0] rounded-sm"
+              >
+                <span class="text-base font-semibold font-Archivo"
+                  >View all playlists</span
+                >
+                <svg
+                  width="17"
+                  height="16"
+                  viewBox="0 0 17 16"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1.5 8H15.5M15.5 8L8.5 1M15.5 8L8.5 15"
+                    stroke="#121212"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
             </div>
           </div>
         </div>
